@@ -16,7 +16,8 @@ main {  margin: 1rem;
         grid-gap: 1rem;
         filter: drop-shadow(0 0 0.4rem black);}
 
-.left{ background-color: rgb(141, 137, 137);
+.left{ background: linear-gradient(black, white);
+       border-style: double;
        padding: 1rem;
        color: azure;}
        
@@ -47,22 +48,27 @@ main {  margin: 1rem;
         
 .estudios ul{margin: 2rem 0;}
 
-.date{color: rgb(16, 73, 9);}
+.date{color: rgb(248, 252, 248);}
 
 .educacion ul{  margin: 2rem 0;
                 background-color: white;}
 
 
-.right, .estudios, .formacion {background-color: rgb(243, 216, 65); color: rgb(238, 8, 8);}
+/* .right, .estudios, .formacion {background-color: rgb(43, 148, 180); color: rgb(238, 8, 8);} */
 
-.right, .estudios, .formacion .date{color: rgb(12, 0, 0);}
+.right, .estudios, .formacion .date{background-color: transparent;  border-style: ridge; }
+.right .estudios .formacion {color:red;}
+.right .estudios .date{color: rgb(247, 244, 244);}
 
 
-.pie {  background-color: black;
-        padding: 2rem 0;
-        text-align: center;
-        color: white;
-        line-height: 1.5;}
+
+
+
+.pie { background-color: black;
+       padding: 2rem 0;
+       text-align: center;
+       color: white;
+       line-height: 1.5;}
 
 
 
