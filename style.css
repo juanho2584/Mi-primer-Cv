@@ -54,14 +54,45 @@ main {  margin: 1rem;
                 background-color: white;}
 
 
-/* .right, .estudios, .formacion {background-color: rgb(43, 148, 180); color: rgb(238, 8, 8);} */
+.right .Aptitudes {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
 
 .right, .estudios, .formacion .date{background-color: transparent;  border-style: ridge; }
 .right .estudios .formacion {color:red;}
 .right .estudios .date{color: rgb(247, 244, 244);}
+.right .Aptitudes { text-align: center;
+                    color: blue;
+                    font-size: x-large;}
 
 
 
+.right .lorem{
+        text-align: justify;
+        padding: 1rem;
+        margin: 1rem 0;
+        color: darkslateblue;}
+
+button{ 
+        background: rgb(143, 240, 98);
+        color: white;
+        padding: 0.6rem;
+        margin-top: 20px;
+        border: none;
+        border-radius: 4px; 
+          
+       
+}
+
+button:hover {
+        cursor: pointer;
+        background: black;
+}
+           
 
 
 .pie { background-color: black;

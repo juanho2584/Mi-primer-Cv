@@ -1,5 +1,4 @@
 
-function funcion(params) {
-    location.href = "https://es-la.facebook.com/"
-}
+alert("Bienvenido a Mi Curriculum")
 
+alert("Espero le Sea Interactivo")
